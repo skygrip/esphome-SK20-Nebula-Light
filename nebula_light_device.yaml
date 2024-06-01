@@ -82,7 +82,6 @@ output:
   - platform: libretiny_pwm
     id: laser_pwm
     pin: P24
-    inverted: true
 
   - platform: libretiny_pwm
     id: motor_pwm
