@@ -85,17 +85,14 @@ output:
   - platform: libretiny_pwm
     id: red
     pin: P6
-    inverted: true
 
   - platform: libretiny_pwm
     id: green
     pin: P7
-    inverted: true
 
   - platform: libretiny_pwm
     id: blue
     pin: P8
-    inverted: true
 
   - platform: libretiny_pwm
     id: laser_pwm
@@ -114,7 +111,7 @@ output:
 
   - platform: libretiny_pwm
     id: button_led1_pwm
-    pin: P7
+    pin: P14
     inverted: true
 
 binary_sensor:
