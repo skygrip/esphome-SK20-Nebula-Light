@@ -37,12 +37,6 @@ light:
     output: laser_pwm
     restore_mode: ALWAYS_OFF
 
-  - platform: monochromatic
-    name: "${device_name} Button LED1"
-    id: button_led1
-    output: button_led1_pwm
-    restore_mode: ALWAYS_OFF
-
 fan:
   platform: speed
   name: "${device_name} Motor"
