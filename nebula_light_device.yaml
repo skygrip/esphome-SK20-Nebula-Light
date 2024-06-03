@@ -213,7 +213,7 @@ select:
                 blue: 100%
             - light.turn_on:
                 id: laser
-                brightness: 100%
+                brightness: 60%
             - fan.turn_on:
                 id: motor
                 speed: 50
