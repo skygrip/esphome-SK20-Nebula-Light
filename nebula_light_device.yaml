@@ -83,11 +83,13 @@ output:
     id: laser_pwm
     pin: P24
     min_power: 10%
+    zero_means_zero: true
 
   - platform: libretiny_pwm
     id: motor_pwm
     pin: P26
     min_power: 15%
+    zero_means_zero: true
 
 binary_sensor:
   - platform: gpio
