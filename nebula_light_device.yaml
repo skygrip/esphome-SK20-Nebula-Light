@@ -95,7 +95,7 @@ binary_sensor:
   - platform: gpio
     pin:
       number: P14
-      mode: INPUT_PULLDOWN_16
+      mode: INPUT_PULLDOWN
       inverted: true
     name: "${device_name} Button"
 
