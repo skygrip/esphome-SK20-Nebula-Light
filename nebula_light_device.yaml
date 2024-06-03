@@ -96,7 +96,7 @@ binary_sensor:
     pin:
       number: P14
       mode: INPUT_PULLUP
-      # inverted: true
+      inverted: true
     name: "${device_name} Button"
 
     # Change the scene on short press/click
